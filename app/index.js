@@ -1,10 +1,17 @@
-import { View, Text } from 'react-native';
+import { useStzate } from 'react';
+import { View, ScrollView, SafeAreaView } from 'react-native';
+import { Stack, useRouter } from 'expo-router';
+
+import { COLOR, COLORS, icons, images, SIZES } from '../constants';
+import { Nearbyjobs, Popularjobs, ScreenHeaderBtn, Welcome } from '../components';
 
 const Home = () => {
+  const router = useRouter();
+
   return (
-    <View>
-      <Text>Home</Text>
-    </View>
+    <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
+      <Stack.Screen />
+    </SafeAreaView>
   )
 }
 
