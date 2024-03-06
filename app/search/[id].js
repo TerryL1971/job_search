@@ -21,7 +21,7 @@ const options = {
 method: "GET",
 url: `https://jsearch.p.rapidapi.com/search`,
 headers: {
-"X-RapidAPI-Key": '',
+"X-RapidAPI-Key": 'd39f11150bmshb2ec46410f3f6aep10baddjsn7d880a50091c',
 "X-RapidAPI-Host": "jsearch.p.rapidapi.com",
 },
 params: {
